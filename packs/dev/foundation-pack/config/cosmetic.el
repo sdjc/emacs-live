@@ -18,7 +18,7 @@
 
 (cond
  ((and (window-system) (eq system-type 'darwin))
-  (add-to-list 'default-frame-alist '(font . "Menlo-12"))))
+  (add-to-list 'default-frame-alist '(font . "YaHei Consolas Hybrid"))))
 
 ;; make fringe smaller
 (if (fboundp 'fringe-mode)

@@ -26,6 +26,7 @@
 (live-load-config-file "lisp-conf.el")
 (live-load-config-file "win-switch-conf.el")
 (live-load-config-file "zone-conf.el")
+(live-load-config-file "package-conf.el")
 
 
 (when (eq system-type 'darwin)

@@ -6,7 +6,7 @@
       color-theme-is-global t)
 
 ;; Line-wrapping
-(set-default 'fill-column 72)
+(set-default 'fill-column 80)
 
 ;get rid of clutter
 (if (fboundp 'scroll-bar-mode) (scroll-bar-mode -1))
@@ -18,8 +18,9 @@
 
 (cond
  ((and (window-system) (eq system-type 'darwin))
-  (add-to-list 'default-frame-alist '(font . "Menlo-12"))))
+  (add-to-list 'default-frame-alist '(font . "YaHei Consolas Hybrid"))))
 
 ;; make fringe smaller
 (if (fboundp 'fringe-mode)
     (fringe-mode 4))
+(require 'unicad)
